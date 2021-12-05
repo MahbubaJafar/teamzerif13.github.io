@@ -1,0 +1,182 @@
+body{
+    background: url(/team13/images/mainback.jpeg);
+    background-size: 2096px;
+    margin: 0px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.nav{
+    display: flex;
+    padding: 0px;
+    /* background-color: #007193; */
+}
+.imga{
+    background-color:#007193 ;
+}
+.img{
+  padding: 40px;
+  /* height: 180px; */
+  width: 100px;
+  background-color:#007193 ;
+}
+#about{
+    margin-left: auto;
+    margin-right: 50px;
+
+}
+.header{
+    background-color: #B98077;
+    /* margin-top: 10px; */
+    height: 67px;
+    width: 2068px;
+}
+.backlogo{
+    
+    padding: 0px;
+    width: 1916px;
+    height: 200px;
+    /* margin-left: 1048px; */
+    margin-bottom: 0px;
+    position: absolute;
+    margin-left: 152px;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+    background-image: linear-gradient(to right, #f9f2f2 , #efd7c9);
+}
+.p{
+    font-size: 50px;
+    margin: 0px;
+    color: #E2D7D7;
+    text-align: center;   
+
+}
+a{
+    color: #768A95;
+}
+a:hover{
+    color: #B98077;
+}
+a:link {
+    text-decoration: none;
+  }
+.quote{
+    margin-top: -8px;
+    margin-left: 20px;
+    font-size: 40px;
+    color: #007193;
+    height: 10px;
+    
+}
+main{
+    background-color: #E2D7D7;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: -40px;
+    height: 2000px;
+}
+#introduction{
+    margin: 40px;
+    
+}
+.quotes{
+    height: 20px;
+    width: 893px;
+}
+#welcome
+{
+    background-color: #768A95;
+    padding: 40px;
+    color:#E2D7D7 ;
+}
+.welcome{
+    font-size: 30px;
+    text-align: center;
+}
+.h1welcome{
+    text-align: center;
+    text-transform: uppercase;
+}
+#team{
+    font-size: 30px;
+    text-shadow: black;
+    text-align: center;
+    font-weight: bold;
+    color: #768A95;
+}
+#project{
+    margin-top: 80px;
+    height: 400px;
+    font-size: 40px;
+    color: #E2D7D7;
+}
+.project{
+    background-color:#007193 ;
+    margin-top: 130px;
+}
+.school{
+    margin-top: 80px;
+    height: 200px;
+    font-size: 40px;
+    color: #768A95;
+}
+.containeer
+{
+    position: relative;
+    display: flex;
+    -webkit-box-reflect: below 1px linear-gradient(transparent,transparent,transparent, #0004);
+}
+.containeer .box
+{
+    position: relative;
+width: 320px;
+height: 400px;
+background: O#444;
+margin: 0 20px;
+border-radius: 20px;
+background: linear-gradient(45deg, #2da2ff 25%, #444 25%, #444 50%,
+#2da2ff 50%, #2da2ff 75%, #444 75%, #444 100%);
+background-size: 40px 40px;
+filter: grayscale(1);
+animation: animateBg 0.5s linear infinite; 
+animation-play-state: paused;
+transition: filter 1s;
+display: flex;
+justify-content: center;
+}
+
+.containeer .box:nth-child(2){
+    background: linear-gradient(135deg, #2da2ff 25%, #444 25%, #444 50%,
+#2da2ff 50%, #2da2ff 75%, #444 75%, #444 100%);
+background-size: 40px 40px;
+}
+.containeer .box:hover{
+    animation-play-state: running;
+    filter: grayscale(0);
+}
+@keyframes animateBg
+{
+    0%
+    {
+        background-position: 0;
+    }
+    100%
+    {
+        background-position: 40px;
+    }
+}
+.containeer .box img
+{
+    position: absolute;
+    bottom: 0;
+    height: 90%;
+    transition: height 0.5s;
+    margin-left: -60px;
+}
+.containeer .box:hover img
+{
+    height: 400px;
+}
+.imgName{
+    color: #efd7c9;
+}

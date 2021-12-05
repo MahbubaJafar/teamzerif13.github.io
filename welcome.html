@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Welcome</title>
+        <link rel="stylesheet" href="welcome.js">
+        <link rel="stylesheet" type="text/css" href="/team13/css/welcome.css">
+        <meta http-equiv="refresh" content="3;url=index.html" />
+        
+    </head>
+    <body>
+        <section>
+            <h2>Welcome</h2>
+            <div class="banner">
+                <div class="blocks"></div>
+            </div>
+        </section>
+        <script>
+           const banner = document.getElementsByClassName('banner')[0];
+           const blocks = document.getElementsByClassName('blocks');
+
+           for (var i = 1; i < 400; i++ )
+           {
+             banner.innerHTML += "<div class='blocks'></div>"
+             blocks[i].style.animationDelay = `${i * 0.005}s`;
+           }
+         </script>
+    </body>
+</html>
